@@ -199,7 +199,7 @@ if st.button("Search") and query:
                     score = util.cos_sim(query_embedding, result_embedding).item()
                     scored_results.append((score, result_text, link))
 
-                top_results = sorted(scored_results, key=lambda x: x[0], reverse=True)[:5]
+                top_results = sorted(scored_results, key=lambda x: x[0], reverse=True)[:25]
                 st.session_state.chat_history.append({"bot": top_results})
 
                 if st.session_state.email:
