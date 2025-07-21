@@ -18,7 +18,7 @@ A powerful **Streamlit-based chatbot** designed to perform **semantic patent sea
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 chatbot_app/
 │
@@ -33,10 +33,7 @@ chatbot_app/
 ├── requirements.txt # Python dependencies
 └── README.md
 
-yaml
-Copy code
 
----
 
 ## 📦 Requirements
 
@@ -79,7 +76,7 @@ Chat history is saved to /data/history/<username>.json
 
 Multiple past chats are stored with timestamps
 
-📅 Filtering by Year
+Filtering by Year
 Toggle the "Apply Year Filter" option
 
 Set the minimum year (e.g., 2015) to only get newer patents
@@ -105,7 +102,7 @@ Integrate PDF patent preview
 Use FAISS for scalable vector search (for large local patent datasets)
 
 👩‍💻 Developed By
-Built with ❤️ for the Silofortune Hackathon – Data Science Track
+Built for the Silofortune Hackathon – Data Science Track
 Contributors: Manasa A S and team
 
 📄 License
