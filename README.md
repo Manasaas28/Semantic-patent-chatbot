@@ -89,8 +89,7 @@ User sees a warning message:
 ❌ No patents found for your query. Try another search or adjust the filter.
 
 🏁 Running the App
-bash
-Copy code
+
 streamlit run app.py
 ✨ Future Improvements
 Deploy to Streamlit Cloud or HuggingFace Spaces
